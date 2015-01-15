@@ -1,0 +1,19 @@
+name: DeadBack
+main: DeadBack\BackToDeathPoint
+version: 1.0.0
+api: [1.9.0]
+load: POSTWORLD
+author: evermine
+
+commands:
+    deadback:
+        permission: deadback.deadback
+        description: Return in the last location
+permissions:
+    deadback:
+        default: true
+        description: Permission
+        children:
+            deadback.deadback:
+                default: true
+                description: Return player to last death location.
