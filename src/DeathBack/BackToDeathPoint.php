@@ -14,6 +14,7 @@ class BackToDeathPoint extends PluginBase implements Listener{
     public $lastdeath = array();
 
     public function onEnable(){
+        $this->getServer()->getPluginManager()->registerEvents($this, $this);
         $this->getLogger()->info("onEnable() has been called!");
     }
 
