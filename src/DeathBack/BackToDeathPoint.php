@@ -19,7 +19,7 @@ class BackToDeathPoint extends PluginBase implements Listener{
     }
 
     public function onDisable(){
-        $this->getLogger()->info("Plugin closed!");
+        $this->getLogger()->info("Plugin is Disabled!");
     }
 
     public function onCommand(CommandSender $sender, Command $command, $label, array $args){
